@@ -1,0 +1,95 @@
+body{
+    font-family: 'helvetica neue',Helvetica,Arial,sans-serif;
+}
+
+
+/* NAVBAR */
+
+.navbar{
+    height: 12%;
+}
+
+
+/* nav-link */
+.nav-link{
+    font-size: 13px;
+       padding: 30px 30px 30px 30px;
+}
+ 
+.nav-link:hover{
+    color: #fff;
+    background-color: #03a353;
+ 
+}
+
+
+/* Logo */
+img.logo {
+    width: 164px;
+}
+
+/* FONT AWSOME ICONS */
+
+a.facebook-f.nav-link{
+    position: relative;
+    padding: 8px 12px 8px 13px !important; 
+    border-radius: 50%;
+    width: 34px;
+}
+
+
+ .facebook-f:hover{
+        background-color: #37589b;
+    }
+
+ 
+
+
+a.instagram.nav-link{
+    position: relative;
+    padding: 8px 26px 8px 13px !important;
+    
+    border-radius: 50%;
+    width: 34px;
+}
+
+a.instagram.nav-link :hover{
+    background-color: #a67658;
+    color: #fff;
+}
+
+ 
+
+
+.fa-tiktok:hover{
+    color:#fff;
+}
+
+
+
+
+a.tiktok.nav-link{
+    position: relative;
+    padding: 8px 12px 8px 13px !important; 
+    border-radius: 50%;
+    width: 34px;
+}
+
+
+a.tiktok.nav-link:hover{
+    background-color: #ff0050;
+    color: #ffffff !important;
+}
+/* TITLE */
+
+#title{
+
+    background-image: url(../img/img1.jpg );
+    background-size: cover;
+    background-position: center;
+    font-family: Lato;
+    color: #fff;
+height: 658px;
+width: 100%;
+}
+ 

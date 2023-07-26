@@ -7,6 +7,7 @@ body{
 
 .navbar{
     height: 12%;
+    background-color: #000000;
 }
 
 
@@ -20,6 +21,12 @@ body{
     color: #fff;
     background-color: #03a353;
  
+}
+
+/* DROPMENU */
+
+.color{
+     color: #fff;
 }
 
 
@@ -83,13 +90,94 @@ a.tiktok.nav-link:hover{
 /* TITLE */
 
 #title{
-
-    background-image: url(../img/img1.jpg );
+    background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(0,0,0,0.7)), to(rgba(0,0,0,0.7))),url(../img/img1.jpg);
+    background-image: linear-gradient(to right bottom, rgba(0,0,0,0.7), rgba(0,0,1,0.7)),url(../img/img1.jpg);
+ 
     background-size: cover;
     background-position: center;
     font-family: Lato;
     color: #fff;
-height: 658px;
+height: 657px;
 width: 100%;
 }
  
+
+#content{
+     padding-top: 16%;
+}
+
+/* PHS CONTAINER */
+
+
+.phs-container{
+    color: white;
+    text-align: center;
+    background-color: #000;
+    opacity: 0.8;
+    max-width: 510px;
+}
+
+
+.phs{
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 18px;
+    padding: 10px 20px;
+    font-weight: normal;
+    line-height: 30px;
+}
+
+
+/* CFY CONTAINER */
+
+.cfyl-container{
+    display: block;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.cfyl {
+    font-family: 'bebas-neue','oswald',Helvetica,Arial,sans-serif;
+    text-transform: uppercase;
+    font-size: 68px;
+    font-weight: bold;
+    color: white;
+    line-height: 90px;
+}
+
+
+.callout-intro{
+    margin: 28px;
+}
+
+
+.callbrack{
+font-size: 76px;
+    color: white; 
+    vertical-align: middle;
+    font-weight: normal;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    margin: 0px auto;
+}
+
+
+
+
+
+.callcon {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    text-transform: none;
+    font-size: 14px;
+    color: #fff !important;
+    font-weight: normal; 
+    vertical-align: middle;
+    padding: 0px 20px;
+    margin-top: 10px;
+    line-height: 18px;
+}
+
+.booking{
+    font-size: smaller;
+  text-decoration: none;
+}

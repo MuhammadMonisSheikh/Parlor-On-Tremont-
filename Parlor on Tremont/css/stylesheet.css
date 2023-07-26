@@ -29,6 +29,10 @@ body{
      color: #fff;
 }
 
+.color:hover{
+    background-color: rgba(3, 163, 83,0.4);
+    color: #fff;
+}
 
 /* Logo */
 img.logo {
@@ -92,7 +96,6 @@ a.tiktok.nav-link:hover{
 #title{
     background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(0,0,0,0.7)), to(rgba(0,0,0,0.7))),url(../img/img1.jpg);
     background-image: linear-gradient(to right bottom, rgba(0,0,0,0.7), rgba(0,0,1,0.7)),url(../img/img1.jpg);
- 
     background-size: cover;
     background-position: center;
     font-family: Lato;
@@ -180,4 +183,20 @@ font-size: 76px;
 .booking{
     font-size: smaller;
   text-decoration: none;
+}
+
+
+/* About Home SECTION */
+
+.about-home{
+height: 657px;
+width: 100%;
+}
+
+
+.ftby{
+    font-family: 'bebas-neue','oswald',Helvetica,Arial,sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #000000;
 }

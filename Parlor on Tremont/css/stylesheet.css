@@ -181,8 +181,7 @@ font-size: 76px;
 }
 
 .booking{
-    font-size: smaller;
-  text-decoration: none;
+    font-size: smaller; 
 }
 
 
@@ -193,10 +192,30 @@ height: 657px;
 width: 100%;
 }
 
-
-.ftby{
+ 
+.featurette-heading{ 
     font-family: 'bebas-neue','oswald',Helvetica,Arial,sans-serif;
-    text-transform: uppercase;
-    font-weight: bold;
-    color: #000000;
+    font-weight: bolder;
+}
+
+.bd-placeholder-img{
+    height: 72vh; 
+    right: 38px;
+}
+
+
+/* MEDIA QUERY */
+@media (max-width:991px) {
+    
+#navbarSupportedContent{
+    background-color: #000000;
+}
+
+
+ul.social-media.navbar-nav.flex-row.ms-5{
+        
+            margin-left: 1.5rem!important;
+        
+    }
+
 }

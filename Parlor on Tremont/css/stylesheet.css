@@ -199,9 +199,25 @@ width: 100%;
 }
 
 .bd-placeholder-img{
-    height: 72vh; 
-    right: 38px;
+    height: 72vh;  
 }
+
+
+
+/* SELLING POINT SECTION */
+
+#selling-points{
+    background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(0,0,0,0.7)), to(rgba(0,0,0,0.8))),url(../img/selling-points-background-1-1030x283.jpg);
+    background-image: linear-gradient(to right bottom, rgba(0,0,0,0.7), rgba(0,0,0,0.8)),url(../img/selling-points-background-1-1030x283.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: Lato;
+    color: #fff;
+height: 657px;
+width: 100%;
+}
+
+
 
 
 /* MEDIA QUERY */

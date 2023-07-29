@@ -187,8 +187,8 @@ font-size: 76px;
 
 /* About Home SECTION */
 
-.about-home{
-height: 657px;
+#about-home{
+height: 100%;
 width: 100%;
 }
 
@@ -213,13 +213,24 @@ width: 100%;
     background-position: center;
     font-family: Lato;
     color: #fff;
-height: 657px;
+height: 100%;
 width: 100%;
 }
 
+.selling-points-heading{
+    font-family: 'bebas-neue','oswald',Helvetica,Arial,sans-serif;
+    font-weight: bolder; 
+}
 
+.heading-span{
+    
+    letter-spacing: 1px;
+}
 
-
+.special_amp{
+    font-family: "Baskerville","Palatino Linotype","Palatino","Times New Roman",serif;
+    font-size: 1em;
+}
 /* MEDIA QUERY */
 @media (max-width:991px) {
     

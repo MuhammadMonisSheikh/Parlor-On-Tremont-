@@ -1,36 +1,40 @@
-body{
-    font-family: 'helvetica neue',Helvetica,Arial,sans-serif;
+body {
+    font-family: 'helvetica neue', Helvetica, Arial, sans-serif;
 }
 
+*{
+    margin: 0;
+    padding: 0;
+}
 
 /* NAVBAR */
 
-.navbar{
+.navbar {
     height: 12%;
     background-color: #000000;
 }
 
 
 /* nav-link */
-.nav-link{
+.nav-link {
     font-size: 13px;
-       padding: 30px 30px 30px 30px;
+    padding: 30px 30px 30px 30px;
 }
- 
-.nav-link:hover{
+
+.nav-link:hover {
     color: #fff;
     background-color: #03a353;
- 
+
 }
 
 /* DROPMENU */
 
-.color{
-     color: #fff;
+.color {
+    color: #fff;
 }
 
-.color:hover{
-    background-color: rgba(3, 163, 83,0.4);
+.color:hover {
+    background-color: rgba(3, 163, 83, 0.4);
     color: #fff;
 }
 
@@ -41,78 +45,79 @@ img.logo {
 
 /* FONT AWSOME ICONS */
 
-a.facebook-f.nav-link{
+a.facebook-f.nav-link {
     position: relative;
-    padding: 8px 12px 8px 13px !important; 
+    padding: 8px 12px 8px 13px !important;
     border-radius: 50%;
     width: 34px;
 }
 
 
- .facebook-f:hover{
-        background-color: #37589b;
-    }
-
- 
+.facebook-f:hover {
+    background-color: #37589b;
+}
 
 
-a.instagram.nav-link{
+
+
+a.instagram.nav-link {
     position: relative;
     padding: 8px 26px 8px 13px !important;
-    
+
     border-radius: 50%;
     width: 34px;
 }
 
-a.instagram.nav-link :hover{
+a.instagram.nav-link :hover {
     background-color: #a67658;
     color: #fff;
 }
 
- 
 
 
-.fa-tiktok:hover{
-    color:#fff;
+
+.fa-tiktok:hover {
+    color: #fff;
 }
 
 
 
 
-a.tiktok.nav-link{
+a.tiktok.nav-link {
     position: relative;
-    padding: 8px 12px 8px 13px !important; 
+    padding: 8px 12px 8px 13px !important;
     border-radius: 50%;
     width: 34px;
 }
 
 
-a.tiktok.nav-link:hover{
+a.tiktok.nav-link:hover {
     background-color: #ff0050;
     color: #ffffff !important;
 }
+
 /* TITLE */
 
-#title{
-    background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(0,0,0,0.7)), to(rgba(0,0,0,0.7))),url(../img/img1.jpg);
-    background-image: linear-gradient(to right bottom, rgba(0,0,0,0.7), rgba(0,0,1,0.7)),url(../img/img1.jpg);
+#title {
+    background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(../img/img1.jpg);
+    background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 1, 0.7)), url(../img/img1.jpg);
     background-size: cover;
     background-position: center;
     font-family: Lato;
     color: #fff;
-height: 657px;
-width: 100%;
+    height: 657px;
+    width: 100%;
 }
- 
 
-#content{
-     padding-top: 16%;
+
+#content {
+    padding-top: 16%;
 }
 
 /* PHS CONTAINER */
 
 
-.phs-container{
+.phs-container {
     color: white;
     text-align: center;
     background-color: #000;
@@ -121,7 +126,7 @@ width: 100%;
 }
 
 
-.phs{
+.phs {
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     letter-spacing: 5px;
@@ -134,14 +139,14 @@ width: 100%;
 
 /* CFY CONTAINER */
 
-.cfyl-container{
+.cfyl-container {
     display: block;
     margin-bottom: 20px;
     margin-top: 20px;
 }
 
 .cfyl {
-    font-family: 'bebas-neue','oswald',Helvetica,Arial,sans-serif;
+    font-family: 'bebas-neue', 'oswald', Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-size: 68px;
     font-weight: bold;
@@ -150,14 +155,14 @@ width: 100%;
 }
 
 
-.callout-intro{
+.callout-intro {
     margin: 28px;
 }
 
 
-.callbrack{
-font-size: 76px;
-    color: white; 
+.callbrack {
+    font-size: 76px;
+    color: white;
     vertical-align: middle;
     font-weight: normal;
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
@@ -173,76 +178,118 @@ font-size: 76px;
     text-transform: none;
     font-size: 14px;
     color: #fff !important;
-    font-weight: normal; 
+    font-weight: normal;
     vertical-align: middle;
     padding: 0px 20px;
     margin-top: 10px;
     line-height: 18px;
 }
 
-.booking{
-    font-size: smaller; 
+.booking {
+    font-size: smaller;
 }
 
 
 /* About Home SECTION */
 
-#about-home{
-height: 100%;
-width: 100%;
+#about-home {
+    height: 100%;
+    width: 100%;
 }
 
- 
-.featurette-heading{ 
-    font-family: 'bebas-neue','oswald',Helvetica,Arial,sans-serif;
+
+.featurette-heading {
+    font-family: 'bebas-neue', 'oswald', Helvetica, Arial, sans-serif;
     font-weight: bolder;
 }
 
-.bd-placeholder-img{
-    height: 72vh;  
+.bd-placeholder-img {
+    height: 72vh;
 }
 
 
 
 /* SELLING POINT SECTION */
 
-#selling-points{
-    background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(0,0,0,0.7)), to(rgba(0,0,0,0.8))),url(../img/selling-points-background-1-1030x283.jpg);
-    background-image: linear-gradient(to right bottom, rgba(0,0,0,0.7), rgba(0,0,0,0.8)),url(../img/selling-points-background-1-1030x283.jpg);
+#selling-points {
+    background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.8))), url(../img/selling-points-background-1-1030x283.jpg);
+    background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url(../img/selling-points-background-1-1030x283.jpg);
     background-size: cover;
     background-position: center;
     font-family: Lato;
     color: #fff;
-height: 100%;
-width: 100%;
+    height: 100%;
+    width: 100%;
 }
 
-.selling-points-heading{
-    font-family: 'bebas-neue','oswald',Helvetica,Arial,sans-serif;
-    font-weight: bolder; 
+.selling-points-heading {
+    font-family: 'bebas-neue', 'oswald', Helvetica, Arial, sans-serif;
+    font-weight: bolder;
 }
 
-.heading-span{
-    
+.heading-span {
+
     letter-spacing: 1px;
 }
 
-.special_amp{
-    font-family: "Baskerville","Palatino Linotype","Palatino","Times New Roman",serif;
+.special_amp {
+font-family: "Baskerville","Palatino Linotype","Palatino","Times New Roman",serif;
+font-style: italic;
+font-size: 1.3em;
+line-height: 0.5em;
+font-weight: normal;
+}
+
+.special_amp {
+   
     font-size: 1em;
 }
-/* MEDIA QUERY */
-@media (max-width:991px) {
-    
-#navbarSupportedContent{
-    background-color: #000000;
+
+/* SERVICES SECTION */
+
+.services{
+    width: 100%;
+    height: 100%;
+}
+
+.services-heading{
+    font-family: 'bebas-neue',Helvetica,Arial,sans-serif;
+    letter-spacing: 1px;
 }
 
 
-ul.social-media.navbar-nav.flex-row.ms-5{
-        
-            margin-left: 1.5rem!important;
-        
+.special_amp {
+    font-family: "Baskerville","Palatino Linotype","Palatino","Times New Roman",serif;
+    font-style: italic;
+    font-size: 1.3em;
+    line-height: 0.5em;
+    font-weight: normal;
+    }
+    
+    .special_amp {
+       
+        font-size: 1em;
+    }
+
+.av-flex-placeholde{
+
+    width: 6%;
+
+}
+    
+
+/* MEDIA QUERY */
+@media (max-width:991px) {
+
+    #navbarSupportedContent {
+        background-color: #000000;
+    }
+
+
+    ul.social-media.navbar-nav.flex-row.ms-5 {
+
+        margin-left: 1.5rem !important;
+
     }
 
 }

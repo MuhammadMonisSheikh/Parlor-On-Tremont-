@@ -227,7 +227,8 @@ a.tiktok.nav-link:hover {
 }
 
 .bd-placeholder-img {
-    height: 72vh;
+    height: 68vh;
+    width: 600px; 
 }
 
 
@@ -385,6 +386,13 @@ text-decoration: underline;
 }
 
 /* MEDIA QUERY */
+
+@media (max-width:990.91px) {
+ .fwb{
+    width: 84%!important;
+    top: 16px;
+ }
+}
 
 @media (max-width:991px) {
 

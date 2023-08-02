@@ -2,11 +2,23 @@ body {
     font-family: 'helvetica neue', Helvetica, Arial, sans-serif;
 }
 
+::selection{
+    background-color: #03a353;
+
+}
+
 h1,h2{
     color: #000000;
     font-weight: bold;
     font-family:'bebas-neue', 'oswald', Helvetica, Arial, sans-serif ;
 }
+
+h5{
+   font-family:'bebas-neue',Helvetica,Arial,sans-serif;
+   font-weight: bold;
+   font-size: 13px;
+}
+
 
 *{
     margin: 0;
@@ -21,18 +33,18 @@ p{
 /* NAVBAR */
 
 .navbar {
-    height: 13%;
+    height: 14%;
     background-color: #000000;
 }
 
 
 /* nav-link */
-.nav-link {
+.nav-link-hover {
     font-size: 13px;
     padding: 30px 30px 30px 30px;
 }
 
-.nav-link:hover {
+.nav-link-hover:hover {
     color: #fff;
     background-color: #03a353;
 
@@ -329,8 +341,48 @@ font-weight: normal;
     height: 48vh;
 }
 
+/* EDUCATION SECTION */
 
 
+#education {
+    height: 100%;
+    width: 100%;
+}
+
+.bd-education-img{
+    height: 74vh;
+}
+
+
+/* FOOTERS */
+
+/* FOOTER1 */
+
+
+
+#footer-1 {
+    height: 100%;
+    width: 100%;
+    background-color: #000000;
+}
+
+.link-light:hover{
+    text-decoration: underline;
+}
+
+
+/* FOOTER-2 */
+#footer-2{
+    background-color: #191919;
+color: #637163;
+}
+.privacy{
+    text-decoration: none;
+}
+
+.privacy:hover{
+text-decoration: underline;
+}
 
 /* MEDIA QUERY */
 

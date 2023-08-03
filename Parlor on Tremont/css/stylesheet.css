@@ -227,8 +227,8 @@ a.tiktok.nav-link:hover {
 }
 
 .bd-placeholder-img {
-    height: 68vh;
-    width: 600px; 
+    height: 74vh; 
+    width: 100%;
 }
 
 
@@ -396,7 +396,7 @@ text-decoration: underline;
 
 @media (max-width:991px) {
 
-    #navbarSupportedContent {
+    #offcanvasDarkNavbar {
         background-color: #000000;
     }
 
@@ -433,4 +433,20 @@ text-decoration: underline;
             right: -30%;
         }
         
+}
+
+@media (max-width:454.55px) {
+
+.bd-placeholder-img{
+    height: 60vh;
+}
+
+.fwb {
+    width: 100%!important;
+}
+
+.fwb-pargaraph{ 
+        width: 100%!important;
+}
+
 }

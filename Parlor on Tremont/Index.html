@@ -44,76 +44,85 @@
 
         <!-- NAVBAR -->
 
-        <nav class="navbar fixed-top navbar-expand-lg " data-bs-theme="dark">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-black fixed-top">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">
-                    <img src="img/logo.png" class="logo" alt="">
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse navbar-nav-scroll" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item px-2">
-                            <a class="nav-link nav-link-hover  active" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item px-2">
-                            <a class="nav-link nav-link-hover" href="#">About</a>
-                        </li>
-                        <li class="nav-item px-2">
-                            <a class="nav-link nav-link-hover" href="#">Services</a>
-                        </li>
-                        <li class="nav-item px-2">
-                            <a class="nav-link nav-link-hover" href="#">Hair Classes and Education</a>
-                        </li>
-                        <li class="nav-item px-2">
-                            <a class="nav-link nav-link-hover" href="#">Latest</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link nav-link-hover dropdown-toggle" href="#" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Reviews & Feedback
-                            </a>
-                            <ul class="dropdown-menu bg-success ">
-                                <li><a class="color dropdown-item" href="#">Reviews & Testimonials</a></li>
-                                <li><a class="color dropdown-item" href="#">Feedback</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item px-2">
-                            <a href="#" class="nav-link nav-link-hover">Contact</a>
-                        </li>
-
-
-                    </ul>
-
-
-                    <ul class="social-media navbar-nav flex-row ms-5 ">
-
-                        <li class="nav-item">
-                            <a href="#" class="facebook-f nav-link nav-link-hover">
-                                <i class="fab fa-facebook-f"></i>
-                            </a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a href="#" class="instagram nav-link nav-link-hover ">
-                                <i class="fab fa-instagram"></i>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="tiktok nav-link nav-link-hover">
-                                <i class="fab fa-tiktok"></i>
-                            </a>
-                        </li>
-
-                    </ul>
-
+              <a class="navbar-brand" href="#">
+                <img src="img/logo.png" alt="" class="logo">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="offcanvas offcanvas-end text-bg-black" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasbkNavbarLabel">
+                <div class="offcanvas-header">
+                 
+                  <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
-            </div>
-        </nav>
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 ">
+                    <li class="nav-item">
+                      <a class="nav-link nav-link-hover active px-3" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link nav-link-hover px-3" href="#">About</a>
+                    </li>
 
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-hover px-3" href="#">Services</a>
+                      </li>
+
+                      <li class="nav-item">
+                        <a class="nav-link nav-link-hover px-3" href="#">Hair Classes and Education</a>
+                      </li>
+
+                      <li class="nav-item">
+                        <a class="nav-link nav-link-hover px-3" href="#">Latest</a>
+                      </li>
+ 
+
+                    <li class="nav-item dropdown">
+                      <a class="nav-link nav-link-hover dropdown-toggle px-3" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Reviews & Feedback   
+                      </a>
+                      <ul class="dropdown-menu dropdown-menu bg-success">
+                        <li><a class="color dropdown-item " href="#">Reviews & Testimonials</a></li>
+                        <li><a class=" color dropdown-item" href="#">Feedback</a></li>
+                       
+                             </ul>
+                    </li>
+
+
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-hover" href="#">Contact</a>
+                      </li>
+
+                  </ul>
+                  <ul class="social-media navbar-nav flex-row ms-4 ms-md-2 ms-sm-2 align-bottom">
+
+                    <li class="nav-item">
+                        <a href="#" class="facebook-f nav-link nav-link-hover position-relative" style="top: 21px;">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#" class="instagram nav-link nav-link-hover position-relative" style="top: 21px;">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="tiktok nav-link nav-link-hover position-relative" style="top: 21px;">
+                            <i class="fab fa-tiktok"></i>
+                        </a>
+                    </li>
+
+                </ul>
+                </div>
+              </div>
+            </div>
+          </nav>
+
+
+     
 
         <!-- Title -->
 
@@ -160,12 +169,12 @@
     <section id="about-home" class="bg-light">
         <div class="container pt-5 py-5 h-100%">
             <div class="row position-relative ps-md-4"> 
-                <div class="col-lg-5 col-md-12  mt-4 position-relative" >
+                <div class="col-lg-5 mt-4 position-relative" >
                     <img src="img/parlor-on-tremont-exterior-1.jpg" width="500px" height="500px"
                         class="bd-placeholder-img bd-placeholder-img-lg position-relative img-fluid mx-auto object-fit-cover" alt="">
                 </div>
-                <div class="col-lg-1 col-md-0"></div>
-                <div class="col-lg-6 col-md-12 fwb position-relative" style="width: 50%;">
+                <div class="col-lg-1" style="width: 3%;"></div>
+                <div class="col-lg-5 col-md-12 fwb position-relative" style="width: 52%;">
                     <div class=" lh-1 fw-bold">
                         <h1 class="featurette-heading text-uppercase lh-1" style="width: 100%; font-size: 2em; color: #000;">
                             From The Beginning,
@@ -173,7 +182,7 @@
                             You’ll Be In Expert Hands<strong class="text-success">.</strong>
                         </h1>
                         <div>
-                            <p style="width: 99%">
+                            <p style="width: 99% ">
                                 <span class="fw-bold"
                                     style="font-size: 25px; background-color: #000;color: #969696;font-weight: bold;padding:0.3em 0em;line-height: 1.5em;">With
                                     decades of experience, Parlor On Tremont offers the Boston
@@ -182,7 +191,7 @@
                         </div>
                     </div>
 
-                    <p class="text-body-secondary pt-4" style="font-size: 14px; width:86%;"><strong class="text-success fw-bold">But we don’t stop
+                    <p class="text-body-secondary pt-4 fwb-pargaraph" style="font-size: 14px; width:86%;"><strong class="text-success fw-bold">But we don’t stop
                             there. In fact, we keep moving.</strong>Our diverse set of services paired with years of
                         learning modern haircare techniques
                         make Parlor On Tremont the perfect place for your next haircut near Boston, MA. Our staff of

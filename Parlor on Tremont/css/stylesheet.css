@@ -9,7 +9,7 @@ body {
 
 h1,h2{
     color: #000000;
-    font-weight: bold;
+    font-weight: 900 !important;
     font-family:'bebas-neue', 'oswald', Helvetica, Arial, sans-serif ;
 }
 
@@ -227,7 +227,7 @@ a.tiktok.nav-link:hover {
 }
 
 .bd-placeholder-img {
-    height: 74vh; 
+    height: 70vh; 
     width: 100%;
 }
 
@@ -387,14 +387,15 @@ text-decoration: underline;
 
 /* MEDIA QUERY */
 
-@media (max-width:990.91px) {
- .fwb{
-    width: 84%!important;
-    top: 16px;
- }
+@media (max-width:1153.64px) {
+
+.all-services {
+    right: -42%;
+}
 }
 
-@media (max-width:991px) {
+
+@media (max-width:990.91px) {
 
     #offcanvasDarkNavbar {
         background-color: #000000;
@@ -407,13 +408,41 @@ text-decoration: underline;
 
     }
 
+
+    .bd-placeholder-img{
+    height:60vh;
+    top: 10%;
+   }
+  
 }
 
 
+@media (max-width:900.91px) {
+
+.bd-placeholder-img {
+    height: 50vh;
+    top: 30%;
+}
+}
+
 @media (max-width:767.27px) {
+
+    .bd-placeholder-img {
+        height: 70vh;
+        top: -6%;
+    }
+
+.fwb{
+    width: 100% !important;
+}
 
 .all-services {
     right: -37%;
+}
+
+
+.card{
+    width: 88%;
 }
 
 }
@@ -425,7 +454,14 @@ text-decoration: underline;
     }
     
     }
+    @media (max-width:575.45px) {
 
+.selling-padding{
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+    }
 
     @media (max-width:500.91px) {
 
@@ -435,18 +471,13 @@ text-decoration: underline;
         
 }
 
+
+
+
 @media (max-width:454.55px) {
 
-.bd-placeholder-img{
-    height: 60vh;
-}
-
-.fwb {
-    width: 100%!important;
-}
-
-.fwb-pargaraph{ 
-        width: 100%!important;
-}
+ .services-padding{
+    padding-left: 2rem;
+ }
 
 }

@@ -322,10 +322,7 @@ font-weight: normal;
     height: 100%;
     background-color: #F2F2F2;
 }
-
-.trending-header{
-    line-height: 1px;
-}
+ 
 
 .trending-heading{
     letter-spacing: 1px;
@@ -339,7 +336,7 @@ font-weight: normal;
 
 
 .trending-img{
-    height: 48vh;
+    height: 45vh;
 }
 
 /* EDUCATION SECTION */
@@ -437,7 +434,7 @@ text-decoration: underline;
 }
 
 .all-services {
-    right: -37%;
+    right: -32%;
 }
 
 
@@ -450,7 +447,7 @@ text-decoration: underline;
 @media (max-width:700px) {
 
     .all-services {
-        right: -35%;
+        right: -31%;
     }
     
     }
@@ -461,13 +458,27 @@ text-decoration: underline;
     padding-right: 2rem;
 }
 
+.services-padding{
+    padding-left: 2rem;
+}
+ 
+.all-services {
+    right: -29%;
+}
+ .trending-padding{
+    padding-left: 2rem;
+ }
+
+
     }
 
     @media (max-width:500.91px) {
 
         .all-services {
-            right: -30%;
+            right: -23%;
         }
+  
+
         
 }
 
@@ -479,5 +490,6 @@ text-decoration: underline;
  .services-padding{
     padding-left: 2rem;
  }
+
 
 }

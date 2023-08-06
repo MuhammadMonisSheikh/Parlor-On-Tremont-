@@ -4,8 +4,10 @@ body {
 
 ::selection{
     background-color: #03a353;
-
+color: #fff;
 }
+
+
 
 h1,h2{
     color: #000000;
@@ -349,38 +351,36 @@ font-weight: normal;
 
 .bd-education-img{
     height: 74vh;
+    width: 100%;
 }
 
 
 /* FOOTERS */
-
-/* FOOTER1 */
-
-
-
-#footer-1 {
+ 
+#footer {
     height: 100%;
     width: 100%;
     background-color: #000000;
 }
+ 
+.nav-footer-link{
+color: #8C8C8C;
 
-.link-light:hover{
-    text-decoration: underline;
+}
+
+.nav-footer-link:hover{
+    color: #ffffff !important;
 }
 
 
-/* FOOTER-2 */
-#footer-2{
-    background-color: #191919;
-color: #637163;
-}
-.privacy{
+.text-decoration{
     text-decoration: none;
 }
 
-.privacy:hover{
-text-decoration: underline;
+.text-decoration:hover{
+    text-decoration: underline;
 }
+
 
 /* MEDIA QUERY */
 
@@ -389,7 +389,24 @@ text-decoration: underline;
 .all-services {
     right: -42%;
 }
+
+
+.bd-education-img {
+    height: 70vh;
 }
+
+
+}
+
+
+@media (max-width:1044.55px) {
+
+.bd-education-img {
+    height: 58vh;
+    top: 14%;
+}
+}
+
 
 
 @media (max-width:990.91px) {
@@ -406,20 +423,26 @@ text-decoration: underline;
     }
 
 
-    .bd-placeholder-img{
-    height:60vh;
-    top: 10%;
-   }
-  
+    .bd-placeholder-img {
+        height: 50vh;
+        top: 30%;
+    }  
 }
 
 
-@media (max-width:900.91px) {
+@media (max-width:890.91px) {
+    .bd-education-img {
+        height: 54vh;
+    }    
+}
 
-.bd-placeholder-img {
+@media (max-width:850px) {
+
+.bd-education-img {
     height: 50vh;
     top: 30%;
 }
+
 }
 
 @media (max-width:767.27px) {
@@ -442,6 +465,14 @@ text-decoration: underline;
     width: 88%;
 }
 
+
+
+.bd-education-img {
+    height: 68vh;
+    top: 6%;
+}
+
+
 }
 
 @media (max-width:700px) {
@@ -451,6 +482,15 @@ text-decoration: underline;
     }
     
     }
+
+    @media (max-width:630.91px) {
+
+    .bd-education-img {
+        height: 60vh;
+    }
+    }
+
+
     @media (max-width:575.45px) {
 
 .selling-padding{
@@ -469,6 +509,14 @@ text-decoration: underline;
     padding-left: 2rem;
  }
 
+ .education-padding{
+    padding-left: 2rem;
+ }
+
+ .bd-education-img {
+    height: 54vh;
+    width: 96%;
+}
 
     }
 
@@ -486,6 +534,10 @@ text-decoration: underline;
 
 
 @media (max-width:454.55px) {
+
+.all-services {
+    right: -28%;
+}
 
  .services-padding{
     padding-left: 2rem;

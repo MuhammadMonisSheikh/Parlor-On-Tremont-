@@ -2,33 +2,33 @@ body {
     font-family: 'helvetica neue', Helvetica, Arial, sans-serif;
 }
 
-::selection{
+::selection {
     background-color: #03a353;
-color: #fff;
+    color: #fff;
 }
 
 
 
-h1,h2{
+h1, h2 {
     color: #000000;
     font-weight: 900 !important;
-    font-family:'bebas-neue', 'oswald', Helvetica, Arial, sans-serif ;
+    font-family: 'bebas-neue', 'oswald', Helvetica, Arial, sans-serif;
 }
 
-h5{
-   font-family:'bebas-neue',Helvetica,Arial,sans-serif;
-   font-weight: bold;
-   font-size: 13px;
+h5 {
+    font-family: 'bebas-neue', Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 13px;
 }
 
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
 
-p{
+p {
     margin: 0.85em 0 !important;
 }
 
@@ -229,319 +229,36 @@ a.tiktok.nav-link:hover {
 }
 
 .bd-placeholder-img {
-    height: 70vh; 
+    height: 70vh;
     width: 100%;
 }
 
 
 
-/* SELLING POINT SECTION */
-
-#selling-points {
-    background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.8))), url(../img/selling-points-background-1-1030x283.jpg);
-    background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url(../img/selling-points-background-1-1030x283.jpg);
-    background-size: cover;
-    background-position: center;
-    font-family: Lato;
-    color: #fff;
-    height: 100%;
-    width: 100%;
-}
-
-.selling-points-heading {
-    font-family: 'bebas-neue', 'oswald', Helvetica, Arial, sans-serif;
-    font-weight: bolder;
-}
-
-.heading-span {
-
-    letter-spacing: 1px;
-}
-
-.special_amp {
-font-family: "Baskerville","Palatino Linotype","Palatino","Times New Roman",serif;
-font-style: italic;
-font-size: 1.3em;
-line-height: 0.5em;
-font-weight: normal;
-}
-
-.special_amp {
-   
-    font-size: 1em;
-}
-
-/* SERVICES SECTION */
-
-.services{
-    width: 100%;
-    height: 100%;
-}
-
-.services-heading{
-    font-family: 'bebas-neue',Helvetica,Arial,sans-serif;
-    letter-spacing: 1px;
-}
-
-
-.special_amp {
-    font-family: "Baskerville","Palatino Linotype","Palatino","Times New Roman",serif;
-    font-style: italic;
-    font-size: 1.3em;
-    line-height: 0.5em;
-    font-weight: normal;
-    }
-    
-    .special_amp {
-       
-        font-size: 1em;
-    }
-
-.av-flex-placeholde{
-
-    width: 6%;
-
-}
-    
-/* CARDS */
-
-.card{
-    cursor: pointer;
-}
-
-.card-title{
-    font-family: 'bebas-neue',Helvetica,Arial,sans-serif;
-}
-
-.all-services{
-      right: -44%;
-}
-
-/* TRENDING ON TREMONT */
-
-#trending{
-    width: 100%;
-    height: 100%;
-    background-color: #F2F2F2;
-}
  
-
-.trending-heading{
-    letter-spacing: 1px;
-    font-family:'bebas-neue',Helvetica,Arial,sans-serif;
-    font-weight: bold;
-}
-
-.trend-card-height{
-    height: 95%;
-}
-
-
-.trending-img{
-    height: 45vh;
-}
-
-/* EDUCATION SECTION */
-
-
-#education {
-    height: 100%;
-    width: 100%;
-}
-
-.bd-education-img{
-    height: 74vh;
-    width: 100%;
-}
-
 
 /* FOOTERS */
- 
+
 #footer {
     height: 100%;
     width: 100%;
     background-color: #000000;
 }
- 
-.nav-footer-link{
-color: #8C8C8C;
+
+.nav-footer-link {
+    color: #8C8C8C;
 
 }
 
-.nav-footer-link:hover{
+.nav-footer-link:hover {
     color: #ffffff !important;
 }
 
 
-.text-decoration{
+.text-decoration {
     text-decoration: none;
 }
 
-.text-decoration:hover{
+.text-decoration:hover {
     text-decoration: underline;
-}
-
-
-/* MEDIA QUERY */
-
-@media (max-width:1153.64px) {
-
-.all-services {
-    right: -42%;
-}
-
-
-.bd-education-img {
-    height: 70vh;
-}
-
-
-}
-
-
-@media (max-width:1044.55px) {
-
-.bd-education-img {
-    height: 58vh;
-    top: 14%;
-}
-}
-
-
-
-@media (max-width:990.91px) {
-
-    #offcanvasDarkNavbar {
-        background-color: #000000;
-    }
-
-
-    ul.social-media.navbar-nav.flex-row.ms-5 {
-
-        margin-left: 1.5rem !important;
-
-    }
-
-
-    .bd-placeholder-img {
-        height: 50vh;
-        top: 30%;
-    }  
-}
-
-
-@media (max-width:890.91px) {
-    .bd-education-img {
-        height: 54vh;
-    }    
-}
-
-@media (max-width:850px) {
-
-.bd-education-img {
-    height: 50vh;
-    top: 30%;
-}
-
-}
-
-@media (max-width:767.27px) {
-
-    .bd-placeholder-img {
-        height: 70vh;
-        top: -6%;
-    }
-
-.fwb{
-    width: 100% !important;
-}
-
-.all-services {
-    right: -32%;
-}
-
-
-.card{
-    width: 88%;
-}
-
-
-
-.bd-education-img {
-    height: 68vh;
-    top: 6%;
-}
-
-
-}
-
-@media (max-width:700px) {
-
-    .all-services {
-        right: -31%;
-    }
-    
-    }
-
-    @media (max-width:630.91px) {
-
-    .bd-education-img {
-        height: 60vh;
-    }
-    }
-
-
-    @media (max-width:575.45px) {
-
-.selling-padding{
-    padding-left: 2rem;
-    padding-right: 2rem;
-}
-
-.services-padding{
-    padding-left: 2rem;
-}
- 
-.all-services {
-    right: -29%;
-}
- .trending-padding{
-    padding-left: 2rem;
- }
-
- .education-padding{
-    padding-left: 2rem;
- }
-
- .bd-education-img {
-    height: 54vh;
-    width: 96%;
-}
-
-    }
-
-    @media (max-width:500.91px) {
-
-        .all-services {
-            right: -23%;
-        }
-  
-
-        
-}
-
-
-
-
-@media (max-width:454.55px) {
-
-.all-services {
-    right: -28%;
-}
-
- .services-padding{
-    padding-left: 2rem;
- }
-
-
-}
+} 

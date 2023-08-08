@@ -1,0 +1,282 @@
+body {
+    font-family: 'helvetica neue', Helvetica, Arial, sans-serif;
+}
+
+::selection {
+    background-color: #03a353;
+    color: #fff;
+}
+
+
+
+h1, h2 {
+    color: #000000;
+    font-weight: 900 !important;
+    font-family: 'bebas-neue', 'oswald', Helvetica, Arial, sans-serif;
+}
+
+h5 {
+    font-family: 'bebas-neue', Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+p {
+    margin: 0.85em 0 !important;
+}
+
+/* NAVBAR */
+
+.navbar {
+    height: 14%;
+    background-color: #000000;
+}
+
+
+/* nav-link */
+.nav-link-hover {
+    font-size: 13px;
+    padding: 30px 30px 30px 30px;
+}
+
+.nav-link-hover:hover {
+    color: #fff;
+    background-color: #03a353;
+
+}
+
+/* DROPMENU */
+
+.color {
+    color: #fff;
+}
+
+.color:hover {
+    background-color: rgba(3, 163, 83, 0.4);
+    color: #fff;
+}
+
+/* Logo */
+img.logo {
+    width: 164px;
+}
+
+/* FONT AWSOME ICONS */
+
+a.facebook-f.nav-link {
+    position: relative;
+    padding: 8px 12px 8px 13px !important;
+    border-radius: 50%;
+    width: 34px;
+}
+
+
+.facebook-f:hover {
+    background-color: #37589b;
+}
+
+
+
+
+a.instagram.nav-link {
+    position: relative;
+    padding: 8px 26px 8px 13px !important;
+
+    border-radius: 50%;
+    width: 34px;
+}
+
+a.instagram.nav-link:hover {
+    background-color: #a67658;
+    color: #fff;
+}
+
+
+
+
+.fa-tiktok:hover {
+    color: #fff;
+}
+
+
+
+
+a.tiktok.nav-link {
+    position: relative;
+    padding: 8px 12px 8px 13px !important;
+    border-radius: 50%;
+    width: 37px;
+}
+
+
+a.tiktok.nav-link:hover {
+    background-color: #ff0050;
+    color: #ffffff !important;
+}
+
+/* TITLE */
+
+#title {
+    background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(../img/img1.jpg);
+    background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 1, 0.7)), url(../img/img1.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: Lato;
+    color: #fff;
+    height: 657px;
+    width: 100%;
+}
+
+
+#content {
+    padding-top: 16%;
+}
+
+/* PHS CONTAINER */
+
+
+.phs-container {
+    color: white;
+    text-align: center;
+    background-color: #000;
+    opacity: 0.8;
+    max-width: 510px;
+}
+
+
+.phs {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 18px;
+    padding: 10px 20px;
+    font-weight: normal;
+    line-height: 30px;
+}
+
+
+/* CFY CONTAINER */
+
+.cfyl-container {
+    display: block;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.cfyl {
+    font-family: 'bebas-neue', 'oswald', Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 68px;
+    font-weight: bold;
+    color: white;
+    line-height: 90px;
+}
+
+
+.callout-intro {
+    margin: 28px;
+}
+
+
+.callbrack {
+    font-size: 76px;
+    color: white;
+    vertical-align: middle;
+    font-weight: normal;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    margin: 0px auto;
+}
+
+
+
+
+
+.callcon {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    text-transform: none;
+    font-size: 14px;
+    color: #fff !important;
+    font-weight: normal;
+    vertical-align: middle;
+    padding: 0px 20px;
+    margin-top: 10px;
+    line-height: 18px;
+}
+
+.booking {
+    font-size: smaller;
+}
+
+
+/* About Home SECTION */
+
+#about-home {
+    height: 100%;
+    width: 100%;
+}
+
+.about-padding-top {
+    padding-top: 6rem !important;
+}
+
+.featurette-heading {
+    font-family: 'bebas-neue', 'oswald', Helvetica, Arial, sans-serif;
+    font-weight: bolder;
+}
+
+.bd-placeholder-img {
+    height: 98vh;
+    width: 100%;
+}
+
+
+
+ 
+
+/* FOOTERS */
+
+#footer {
+    height: 100%;
+    width: 100%;
+    background-color: #000000;
+}
+
+.nav-footer-link {
+    color: #8C8C8C;
+
+}
+
+.nav-footer-link:hover {
+    color: #ffffff !important;
+}
+
+
+.text-decoration {
+    text-decoration: none;
+}
+
+.text-decoration:hover {
+    text-decoration: underline;
+} 
+
+
+/* MEET OUR STYLISTS */
+
+.stylists_heading{
+    font-family: 'bebas-neue', 'oswald', Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+
+
+
+.errin_ferreira{
+    font-family: 'bebas-neue', 'oswald', Helvetica, Arial, sans-serif;
+    font-weight: bolder;
+}

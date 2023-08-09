@@ -87,8 +87,7 @@ a.facebook-f.nav-link {
 
 a.instagram.nav-link {
     position: relative;
-    padding: 8px 26px 8px 13px !important;
-
+    padding: 8px 26px 8px 13px !important; 
     border-radius: 50%;
     width: 34px;
 }
@@ -120,100 +119,7 @@ a.tiktok.nav-link:hover {
     background-color: #ff0050;
     color: #ffffff !important;
 }
-
-/* TITLE */
-
-#title {
-    background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(../img/img1.jpg);
-    background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 1, 0.7)), url(../img/img1.jpg);
-    background-size: cover;
-    background-position: center;
-    font-family: Lato;
-    color: #fff;
-    height: 657px;
-    width: 100%;
-}
-
-
-#content {
-    padding-top: 16%;
-}
-
-/* PHS CONTAINER */
-
-
-.phs-container {
-    color: white;
-    text-align: center;
-    background-color: #000;
-    opacity: 0.8;
-    max-width: 510px;
-}
-
-
-.phs {
-    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    font-size: 18px;
-    padding: 10px 20px;
-    font-weight: normal;
-    line-height: 30px;
-}
-
-
-/* CFY CONTAINER */
-
-.cfyl-container {
-    display: block;
-    margin-bottom: 20px;
-    margin-top: 20px;
-}
-
-.cfyl {
-    font-family: 'bebas-neue', 'oswald', Helvetica, Arial, sans-serif;
-    text-transform: uppercase;
-    font-size: 68px;
-    font-weight: bold;
-    color: white;
-    line-height: 90px;
-}
-
-
-.callout-intro {
-    margin: 28px;
-}
-
-
-.callbrack {
-    font-size: 76px;
-    color: white;
-    vertical-align: middle;
-    font-weight: normal;
-    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-    margin: 0px auto;
-}
-
-
-
-
-
-.callcon {
-    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-    text-transform: none;
-    font-size: 14px;
-    color: #fff !important;
-    font-weight: normal;
-    vertical-align: middle;
-    padding: 0px 20px;
-    margin-top: 10px;
-    line-height: 18px;
-}
-
-.booking {
-    font-size: smaller;
-}
-
+ 
 
 /* About Home SECTION */
 
@@ -232,13 +138,19 @@ a.tiktok.nav-link:hover {
 }
 
 .bd-placeholder-img {
-    height: 98vh;
+    height: 76%;
     width: 100%;
 }
 
 
-
+.dsfs{
+    text-decoration: none;
+}
  
+.dsfs:hover{
+    text-decoration: underline;
+}
+
 
 /* FOOTERS */
 
@@ -279,4 +191,114 @@ a.tiktok.nav-link:hover {
 .errin_ferreira{
     font-family: 'bebas-neue', 'oswald', Helvetica, Arial, sans-serif;
     font-weight: bolder;
+}
+
+
+
+.stephen_ferreira{
+    font-family: 'bebas-neue', 'oswald', Helvetica, Arial, sans-serif;
+    font-weight: bolder;
+}
+ 
+
+.fa-camera-retro:hover{
+color: #fff;
+}
+ 
+
+/* FOOTERS */
+
+#footer {
+    height: 100%;
+    width: 100%;
+    background-color: #000000;
+border-top: 1px solid #8C8C8C;
+}
+
+.nav-footer-link {
+    color: #8C8C8C;
+
+}
+
+.nav-footer-link:hover {
+    color: #ffffff !important;
+}
+
+
+.text-decoration {
+    text-decoration: none;
+}
+
+.text-decoration:hover {
+    text-decoration: underline;
+}
+ 
+
+
+/* MEDIA QUERY */
+
+@media (max-width:1190px) {
+    
+    
+    .bd-placeholder-img {
+        height: 60%;
+    }
+
+
+.responsive_paragaraph{
+    font-size: 12px !important;
+}
+
+.border-responsive{
+    width: 98.6vw !important;
+}
+
+
+
+}
+
+
+@media (max-width: 1141.82px){
+.border-responsive {
+    width: 98.4vw !important;
+}
+}
+
+@media (max-width: 1100px){
+.bd-placeholder-img {
+    height: 52%;
+}
+}
+
+@media (max-width: 1053.64px){
+.border-responsive {
+    width: 98.2vw !important;
+}
+}
+
+@media (max-width: 980.91px){
+.border-responsive {
+    width: 98vw !important;
+}
+}
+
+@media (max-width: 913.64px){
+
+
+    .bd-placeholder-img {
+        height: 42%;
+    }
+
+    .border-responsive {
+    width: 97.8vw !important;
+}
+
+
+
+}
+
+@media (max-width: 956.36px){
+.border-responsive {
+    width: 97.5vw !important;
+}
 }

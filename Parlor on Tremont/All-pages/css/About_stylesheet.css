@@ -334,6 +334,17 @@ border-top: 1px solid #8C8C8C;
 }
 }
 
+@media (width: 820px){
+
+.navbar {
+    height: 8%;
+}
+
+.footer-height{
+    height: 70vh !important;
+}
+
+}
 
 @media (max-width: 800.91px){
 
@@ -373,22 +384,31 @@ border-top: 1px solid #8C8C8C;
 }
 
 .stylists-padding {
-     width: 83vw;
+     width: 86vw;
 }
 
 img.stylists_1 {
-    width: 76vw;
-    height: 92vh;
+    width: 60vw;
+    height: 78vh;
+}
+
+
+.experience_contact-paragraph{
+    width: 80vw !important;
+}
+
+.border-width{
+    width: 82vw !important;
 }
 
 img.stylists_2 {
-    width: 76vw;
-    height: 92vh;
+    width: 60vw;
+    height: 78vh;
 }
 
 img.stylists_3 {
-    width: 76vw;
-    height: 92vh;
+    width: 60vw;
+    height: 78vh;
 }
 
 
@@ -401,6 +421,75 @@ img.stylists_3 {
 }
 }
 
+@media (width: 720px){
+
+.navbar {
+    height: 6%;
+}
+
+img.stylists_1 {
+     height: 24vh;
+}
+
+img.stylists_2 {
+     height: 24vh;
+}
+
+img.stylists_3 {
+     height: 24vh;
+}
+
+}
+
+@media (width: 712px){
+
+.navbar {
+    height: 8%;
+}
+
+img.stylists_1 {
+     height: 37vh;
+}
+
+img.stylists_2 {
+     height: 37vh;
+}
+
+img.stylists_3 {
+     height: 37vh;
+}
+
+.footer-height{
+    height: 68vh !important;
+}
+
+}
+
+@media (max-width: 700px){
+
+
+    .stylists-padding {
+        width: 90vw;
+    }
+
+
+img.stylists_1 {
+    width: 58vw;
+    height: 68vh;
+}
+img.stylists_2 {
+    width: 58vw;
+    height: 68vh;
+}
+
+img.stylists_3 {
+    width: 58vw;
+    height: 68vh;
+}
+
+}
+
+
 @media (max-width: 670px){
 .border-responsive {
     width: 98.5vw !important;
@@ -412,6 +501,23 @@ img.stylists_3 {
     width: 98.2vw !important;
 }
 }
+
+@media (max-width: 620.91px){
+
+    img.stylists_1 {
+    height: 60vh;
+}
+
+img.stylists_2 {
+    height: 60vh;
+}
+
+img.stylists_3 {
+    height: 60vh;
+}
+
+}
+
 
 
 @media (max-width: 600px){
@@ -442,7 +548,20 @@ img.stylists_3 {
     padding-top: 3rem;
 }
 
+.stylists-padding {
+     padding-top: 3rem;
+}
 
+.row-padding{
+
+    padding-top: 3rem;
+
+}
+
+
+.stylists-detail-padding{
+    padding-top: 2rem;
+}
 
 
 }
@@ -459,6 +578,21 @@ img.stylists_3 {
 }
 }
 
+@media (max-width: 500.91px){
+
+img.stylists_1 {
+    height: 50vh;
+}
+
+img.stylists_2 {
+    height: 50vh;
+}
+img.stylists_3 {
+    height: 50vh;
+}
+
+}
+
 @media (max-width: 485.45px){
 
     .about-img {
@@ -469,14 +603,161 @@ img.stylists_3 {
     .border-responsive {
     width: 97vw !important;
 }
-
-
+img.stylists_1 {
+    height: 66vh;
+    width: 82vw;
+}
+img.stylists_2 {
+    height: 66vh;
+    width: 82vw;
+}
+img.stylists_3 {
+    height: 66vh;
+    width: 82vw;
+}
 
 }
 
+
+@media (max-width: 480px){
+img.stylists_1 {
+    height: 42vh;
+}
+
+img.stylists_2 {
+    height: 42vh;
+}
+
+img.stylists_3 {
+    height: 42vh;
+}
+
+.footer-padding{
+    padding-bottom: 24rem !important;
+}
+
+.border-responsive {
+    width: 100vw !important;
+}
+
+}
 
 @media (max-width: 470.91px){
 .border-responsive {
     width: 96.6vw !important;
 }
+}
+
+@media (max-width:412px) {
+    
+
+img.stylists_1 {
+    height: 47vh;
+}
+
+img.stylists_2 {
+    height: 47vh;
+}
+    img.stylists_3 {
+        height: 47vh;
+    }
+
+    .footer-padding{
+        padding-bottom: 16rem !important;
+    }
+
+    .border-responsive {
+        width: 99.6vw !important;
+    }
+    
+}
+
+@media (width:393px) {
+
+img.stylists_1 {
+    height: 40vh;
+}
+
+img.stylists_2 {
+    height: 40vh;
+}
+
+img.stylists_3 {
+    height: 40vh;
+}
+
+.footer-padding{
+    padding-bottom: 20rem !important;
+}
+
+.border-responsive {
+    width: 99.3vw !important;
+}
+
+
+}
+
+
+@media (width:390px) {
+    
+img.stylists_1 {
+    height: 35vh;
+}
+
+img.stylists_2 {
+    height: 35vh;
+
+}
+    img.stylists_3 {
+        height: 35vh;
+    }
+
+    .footer-padding{
+        padding-bottom: 24rem !important;
+    }
+    
+
+    .border-responsive {
+        width: 99.2vw !important;
+    }
+
+}
+
+@media (width: 384px){
+.footer-padding {
+    padding-bottom: 10rem !important;
+}
+
+}
+
+
+@media (max-width: 360px){
+
+    .footer-height{
+        height: 58vh !important;
+    }
+
+
+    .footer-padding {
+    padding-bottom: 10rem !important;
+}
+}
+
+@media (max-width: 353px){
+.border-responsive {
+    width: 98.7vw !important;
+}
+
+}
+
+@media (max-width:320px) {
+    
+.footer-height{
+    height: 50vh !important;
+}
+
+.footer-padding{
+    padding-bottom: 6rem !important;
+}
+
 }

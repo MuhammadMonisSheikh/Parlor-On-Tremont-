@@ -120,11 +120,11 @@ a.tiktok.nav-link:hover {
     color: #ffffff !important;
 }
   
-/* EMPTY SPACE */
+/* MAP */
 
-#empty-space{
-background-color: #ffffff;
-height: 100%;
+#map{
+    width:100%;
+    height: 100%;
 }
  
 /* FOOTERS */

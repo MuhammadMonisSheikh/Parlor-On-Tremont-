@@ -439,6 +439,13 @@ img.stylists_3 {
      height: 24vh;
 }
 
+.border-responsive {
+    width: 101.2vw !important;
+}
+.footer-height{
+    height: 78vh !important;
+}
+
 }
 
 @media (width: 712px){
@@ -521,10 +528,37 @@ img.stylists_3 {
 
 
 @media (max-width: 600px){
-.about-img {
+
+    .navbar {
+        height: 10%;
+    }
+
+
+    img.stylists_1 {
+        height: 30vh;
+    }
+
+    img.stylists_2 {
+        height: 30vh;
+    }
+
+
+    img.stylists_3 {
+        height: 30vh;
+    }
+
+
+    .about-img {
     width: 64vw;
     left: 10%;
 }
+
+
+
+.footer-height{
+    height: 66vh !important;
+}
+
 }
 
 
@@ -724,8 +758,18 @@ img.stylists_2 {
 }
 
 @media (width: 384px){
-.footer-padding {
+
+    .navbar {
+        height: 14%;
+    }
+
+    .footer-padding {
     padding-bottom: 10rem !important;
+}
+
+
+.footer-height {
+    height: 46vh !important;
 }
 
 }
@@ -733,8 +777,12 @@ img.stylists_2 {
 
 @media (max-width: 360px){
 
+    .navbar {
+        height: 13%;
+    }
+
     .footer-height{
-        height: 58vh !important;
+        height: 55vh !important;
     }
 
 
